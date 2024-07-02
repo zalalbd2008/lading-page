@@ -77,8 +77,8 @@ function Footer() {
         No ads. No trails. No commitments
       </p>
 
-      <div className="bg-gradient-custome  pt-10 px-6 lg:pb-3 pb-3 ">
-        <div className="flex flex-col   md:flex-row lg:grid justify-between lg:grid-cols-3 items-center  md:items-center gap-4  ">
+      <div className="bg-gradient-custome pt-10 px-6 pb-5 ">
+        <div className="flex flex-col items-center flex-wrap md:flex-row justify-between  gap-4  ">
           <div className="hidden  lg:block">
             <p className="text-white">
               ©2024 Made with ❤️ by PrepWell
