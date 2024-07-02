@@ -66,14 +66,14 @@ function Hero() {
       </div>
       <div className="py-2">
         <Image
+          src="/images/hero.png"
           alt="hero"
           loading="lazy"
           height={400}
           width={400}
-          // decoding="async"
-          // data-nimg="1"
+          decoding="async"
+          data-nimg="1"
           className="w-full object-cover"
-          src="/images/hero-400x400.png"
         />
       </div>
     </section>
