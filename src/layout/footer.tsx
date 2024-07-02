@@ -78,7 +78,7 @@ function Footer() {
       </p>
 
       <div className="bg-gradient-custome  pt-10 px-6 lg:pb-3 pb-3 ">
-        <div className="flex flex-col  md:flex-row lg:grid justify-between lg:grid-cols-3 items-center  md:items-center gap-4  ">
+        <div className="flex flex-col   md:flex-row lg:grid justify-between lg:grid-cols-3 items-center  md:items-center gap-4  ">
           <div className="hidden  lg:block">
             <p className="text-white">
               ©2024 Made with ❤️ by PrepWell
@@ -101,7 +101,7 @@ function Footer() {
               Privacy Policy
             </Link>
           </div>
-          <div className="flex justify-center items-center  gap-x-6  lg:pt-0">
+          <div className="flex  lg:justify-end items-center gap-x-6 lg:pt-0">
             <Twitter className="h-4 w-4 text-white" />
             <Facebook className="h-4 w-4 text-white" />
             <Instagram className="h-4 w-4 text-white" />
