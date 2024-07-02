@@ -52,7 +52,7 @@ function Testimonials() {
                     className="w-[50px] h-[50px] rounded-full object-cover"
                   />
                   <div className="flex flex-col">
-                    <h4>Joe Biiden</h4>
+                    <h1 className="text-lg">Joe Biiden</h1>
                     <p className="text-[10px]">
                       CEO of unknown
                     </p>

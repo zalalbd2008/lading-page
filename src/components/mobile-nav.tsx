@@ -23,9 +23,9 @@ function MobileNav() {
         <SheetTrigger
           aria-label="button"
           type="button"
-          className="border border-red-500 bg-white text-[24px]"
+          className="border  bg-white p-2 rounded-lg text-[24px]"
         >
-          <Menu className="h-5 w-5 " />
+          <Menu className="h-5 w-5 text-black" />
         </SheetTrigger>
         <SheetContent className="bg-white dark:bg-black">
           <SheetHeader>
