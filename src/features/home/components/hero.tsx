@@ -29,7 +29,7 @@ function Hero() {
           Preparation for Interviews Simplified
         </h1>
         <div className="w-1/2 h-1 bg-gradient-custome rounded-3xl my-5" />
-        <p className="text-white lg:text-slate-400 md:w-1/2 block  lg:w-full text-start py-5 ">
+        <p className="text-white md:w-1/2 block  lg:w-full text-start py-5 ">
           We help you snag your dream job with AI-powered
           resume reviews, mock interviews, and a resume quiz
           to boost your confidence and show off your skills!
@@ -66,8 +66,8 @@ function Hero() {
       </div>
       <div className="py-2">
         <Image
-          height={600}
-          width={600}
+          height={400}
+          width={400}
           className="w-full object-cover"
           src="/images/hero.png"
           alt="hero"
