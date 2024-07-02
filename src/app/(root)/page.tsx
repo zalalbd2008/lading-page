@@ -1,15 +1,12 @@
-import Hero from '@/components/hero';
-import Sponser from '@/components/sponser';
-import Features from '@/components/features';
-import Prices from '@/components/price';
-import AboutUs from '@/components/about-us';
-import Testimonials from '@/components/testimonials';
+import Hero from '@/features/home/components/hero';
+import Sponser from '@/features/home/components/sponser';
+import Features from '@/features/home/components/features';
+import Prices from '@/features/home/components/price';
+import AboutUs from '@/features/home/components/about-us';
+import Testimonials from '@/features/home/components/testimonials';
+import Video from '@/features/home/components/video';
 
-import { Button } from '@/components/ui/button';
-import Image from 'next/image';
-import Video from '@/components/video';
-
-export default function Home() {
+export default async function Home() {
   return (
     <main>
       <Hero />

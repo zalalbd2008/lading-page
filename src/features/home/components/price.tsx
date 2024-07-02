@@ -101,7 +101,7 @@ function Prices() {
       </div>
 
       <div className="flex gap-x-3 justify-center pt-10 pb-3">
-        <h5>Monthly</h5>
+        <h3 className="text-lg">Monthly</h3>
         <Switch
           type="button"
           aria-label="button"
@@ -111,7 +111,7 @@ function Prices() {
             setPackagePlan(pre => !pre)
           }
         />
-        <h5>Yearly</h5>
+        <h3 className="text-lg">Yearly</h3>
       </div>
       <div className="hidden lg:grid grid-cols-3 mt-20 ">
         {plans.map((plan, index) => (
