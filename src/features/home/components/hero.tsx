@@ -71,6 +71,7 @@ function Hero() {
           className="w-full object-cover"
           src="/images/hero.png"
           alt="hero"
+          loading="lazy"
         />
       </div>
     </section>
