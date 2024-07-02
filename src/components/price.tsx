@@ -103,6 +103,9 @@ function Prices() {
       <div className="flex gap-x-3 justify-center pt-10 pb-3">
         <h5>Monthly</h5>
         <Switch
+          type="button"
+          aria-label="button"
+          title="switch button"
           checked={packagePlan}
           onCheckedChange={() =>
             setPackagePlan(pre => !pre)

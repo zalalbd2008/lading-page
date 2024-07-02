@@ -15,10 +15,6 @@ export function ModeToggle() {
       variant="secondary"
       size="icon"
       type="button"
-      role="switch"
-      aria-checked="false"
-      data-state="unchecked"
-      value="on"
       aria-label="button"
     >
       <Sun
