@@ -20,8 +20,12 @@ function MobileNav() {
   return (
     <div className="flex md:hidden">
       <Sheet>
-        <SheetTrigger>
-          <Menu className="h-5 w-5" />
+        <SheetTrigger
+          aria-label="button"
+          type="button"
+          className="border border-red-500 bg-white text-[24px]"
+        >
+          <Menu className="h-5 w-5 " />
         </SheetTrigger>
         <SheetContent className="bg-white dark:bg-black">
           <SheetHeader>
